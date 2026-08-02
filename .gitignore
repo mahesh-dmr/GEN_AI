@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Local virtual environment
+.venv/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated vector database artifacts
+03_RAG/database/faiss_index/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
